@@ -231,13 +231,16 @@
     <div class="right-side">
       <div class="pill-group">
         @for (item of [
-          { title: 'Profile', link: 'my-blog/profile.html' },
+        {title: 'Home', href: 'app'},
+          { title: 'Profile', href: 'profile' },
           { title: 'Users', link: 'https://angular.dev/tutorials' },
-
-        ]; track item.title) {
+          
+        ]; track item.title)
+        
+        {
           <a
             class="pill"
-            [href]="item.link"
+            [href]="item.title === 'Profile' ? '/profile' : item.link"
             target="_blank"
             rel="noopener"
           >
