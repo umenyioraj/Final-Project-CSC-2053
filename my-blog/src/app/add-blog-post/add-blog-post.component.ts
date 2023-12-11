@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // Import FormsModule
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-add-blog-post',
   standalone: true,
-  imports: [FormsModule], // Add FormsModule to the imports array
+  imports: [FormsModule, CommonModule], // Add FormsModule to the imports array
   templateUrl: './add-blog-post.component.html',
   styleUrls: ['./add-blog-post.component.css']
 })
