@@ -16,3 +16,32 @@
     margin-bottom: 3px;
   }
   
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Set a background color for better contrast */
+  }
+  
+  .users-container {
+    text-align: center;
+    border: 1px solid blue; /* Set the border color to blue */
+    padding: 20px; /* Add padding for better visual appearance */
+    margin: auto; /* Center the container horizontally */
+  }
+  
+  .users-container h1 {
+    font-size: 36px; /* Adjust the size as needed */
+  }
+  
+  .users-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .users-container li {
+    font-size: 18px; /* Adjust the size as needed */
+  }
+  

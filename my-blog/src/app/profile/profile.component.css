@@ -15,3 +15,45 @@ ul {
 li {
   margin-bottom: 3px;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Set a background color for better contrast */
+}
+
+.profile-container {
+  text-align: center;
+  border: 1px solid blue; /* Set the border color to blue */
+  padding: 20px; /* Add padding for better visual appearance */
+  margin: auto; /* Center the container horizontally */
+}
+
+.profile-container h1 {
+  font-size: 36px; /* Adjust the size as needed */
+}
+
+.profile-container h2 {
+  font-size: 24px; /* Adjust the size as needed */
+}
+
+.profile-container p {
+  font-size: 18px; /* Adjust the size as needed */
+}
+
+.profile-container h3 {
+  font-size: 20px; /* Adjust the size as needed */
+}
+
+.profile-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-container li {
+  font-size: 16px; /* Adjust the size as needed */
+}
+

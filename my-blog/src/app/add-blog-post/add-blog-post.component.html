@@ -11,12 +11,16 @@
 </form>
 
 
-<div *ngIf="submittedPosts.length > 0">
-  <h2>Submitted Posts</h2>
-  <div *ngFor="let post of submittedPosts">
-    <h3>{{ post.title }}</h3>
-    <p>{{ post.content }}</p>
-    <hr>
+<div class="submission-container">
+  <div *ngIf="submittedPosts.length > 0" class="submitted-posts-container">
+    <h2 class="submitted-posts-title">Submitted Posts</h2>
+    <div *ngFor="let post of submittedPosts" class="submitted-post">
+      <div class="post-content">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content }}</p>
+      </div>
+      <hr>
+    </div>
   </div>
 </div>
-  
+

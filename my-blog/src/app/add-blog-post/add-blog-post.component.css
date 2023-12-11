@@ -61,3 +61,37 @@ button {
     width: 200px;
   }
 }
+
+.submission-container {
+  border: 10px solid lightblue; /* Set the border color to blue */
+  padding: 20px; /* Add padding for better visual appearance */
+  margin-left: 300px; /* Adjust the margin as needed to move it to the right */
+  background-color: white; /* Set a background color for better contrast */
+}
+
+.submitted-posts-container {
+  text-align: center; /* Center the content */
+  display: inline-block; /* Ensure the container takes only as much width as necessary */
+}
+
+.submitted-post {
+  padding: 10px; /* Add padding for better visual appearance */
+  margin-bottom: 10px; /* Add margin to separate posts */
+  border: 1px solid lightblue; /* Add a border around each post */
+  /* Add any additional styling you want for each post */
+}
+
+.submitted-posts-title {
+  font-size: 32px; /* Adjust the size as needed */
+  /* Add any additional styling you want for the title */
+}
+
+.submitted-posts-content {
+  font-size: 24px; /* Adjust the size of post content as needed */
+  /* Add any additional styling you want for the content */
+}
+
+.post-content h3 {
+  font-size: 28px; /* Adjust the size of post title as needed */
+  /* Add any additional styling you want for the title */
+}
