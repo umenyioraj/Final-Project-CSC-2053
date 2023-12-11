@@ -10,4 +10,13 @@
   <button type="submit" class="btn btn-primary">Post Blog</button>
 </form>
 
+
+<div *ngIf="submittedPosts.length > 0">
+  <h2>Submitted Posts</h2>
+  <div *ngFor="let post of submittedPosts">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.content }}</p>
+    <hr>
+  </div>
+</div>
   

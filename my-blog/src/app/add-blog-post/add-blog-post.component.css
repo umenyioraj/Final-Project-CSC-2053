@@ -55,6 +55,11 @@
   @media (max-width: 480px) {
     form {
       max-width: 100%;
+
+    .square-container {
+        width: 200px
+        
+    }
     }
   }
   
